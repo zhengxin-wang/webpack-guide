@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# npm package lock
+package-lock.json
+
+# System
+.DS_Store
+
+# ignore VS code editor settings
+.vscode
+
+# ignore compiled dist folder
+/output

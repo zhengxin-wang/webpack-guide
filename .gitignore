@@ -11,4 +11,7 @@ package-lock.json
 .vscode
 
 # ignore compiled dist folder
+/dist/bundle.js
+/dist/*.woff
+/dist/*.png
 /output

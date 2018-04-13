@@ -11,17 +11,18 @@ A JS **Static** Module bundler.
 
 
 ## Why do we use Webpack
-1. Modulization need while develop.
-**JS**
+1. Modulization need while develop. 
+
+    **JS**
 	* CommonJS — require(‘.a.js’)
 	* AMD — requirejs
 	* ES6 — import
 
-**CSS**
+    **CSS**
 	* SCSS
 	* LESS
 
-**Images, fonts, .etc**
+    **Images, fonts, .etc**
 
 2. After modulized, project files are not runnable by itself.
 	* Needs translation, bundling
@@ -53,16 +54,15 @@ A JS **Static** Module bundler.
 
 2. Core concepts —Take config file from our project as an example
 	* entry
-What we use as the roots of dependency graph
+	What we use as the roots of dependency graph
 
 	* output
-Define where the bundled files would go to
-publicPath: When insert bundled files to index.html, the prefix to add before filename. —change it to watch the effect . npx webpack —config ./etc/webpack.develop.js
-
-
+	Define where the bundled files would go to
+	publicPath: When insert bundled files to index.html, the prefix to add before filename. —change it to watch the effect .
 	* loaders — Asset Management: CSS/SCSS, Images/Font files, data files
 
-	* plugins — Output Management and others, more powerful than loaders
+	* plugins — Output Management and others, more powerful than loaders.
+		
 		HtmlWebpackPlugin
 		1. Add bundles. 
 		2. Replace variables
